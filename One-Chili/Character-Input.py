@@ -6,7 +6,7 @@
 # Add on to the previous program by asking the user for another number and printing out that many copies of the previous message
 # Print out that many copies of the previous message on separate lines.
 
-
+# Solution One
 def name_age():
     name = input("What is your name: ")
     age = int(input("what is your age: "))
@@ -21,6 +21,7 @@ def name_age():
 name_age()
 
 
+# Solution 2
 
 
 
