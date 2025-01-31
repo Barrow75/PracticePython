@@ -21,7 +21,30 @@ def name_age():
 name_age()
 
 
-# Solution 2
+# Solution 2 with datetime modle to get current year
+from datetime import date
 
+
+def name_age(name, age):
+
+    return f"{name} {age}"
+
+input_name = input("Enter your name: ")
+input_age = int(input("Enter your age: "))
+
+def main():
+    today = date.today()
+    year = today.year
+    print(name_age(input_name, input_age))
+    turn_100 = (year + 100) - input_age
+    print(name_age(f"Your name is {input_name} and", f"your age is {input_age}. In {turn_100} you will be "
+                                                     f"100 years old"))
+
+    display = int(input("How many times would you like for it to be printed out? "))
+    for i in range(display):
+        print(name_age(f"Your name is {input_name} and", f"your age is {input_age}. In {turn_100} you will be "
+                                                         f"100 years old"))
+
+main()
 
 
