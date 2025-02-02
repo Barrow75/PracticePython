@@ -23,5 +23,31 @@ def MaxOfThree():
 MaxOfThree()
 
 
+# Solution 2
+
+def MaxOfThree(num1, num2, num3):
+
+    return num1, num2, num3
+
+user_input = int(input("Enter first number: "))
+user_input2 = int(input("Enter second number: "))
+user_input3 = int(input("Enter third number: "))
+
+
+def main():
+    if user_input > user_input2 and user_input > user_input3:
+        print(f"{user_input} is the largest")
+
+    elif user_input2 > user_input and user_input2 > user_input3:
+        print(f"{user_input2} is the largest")
+
+    elif user_input3 > user_input and user_input3 > user_input2:
+        print(f"{user_input3} is the largest")
+
+    elif user_input == user_input2 == user_input3:
+        print(f"{user_input}, {user_input2}, and {user_input3} are all equal")
+
+main()
+
 
 
