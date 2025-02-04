@@ -4,9 +4,9 @@
 
 
 def MaxOfThree():
-    number1= int(input("Eneter a number: "))
-    number2 = int(input("Eneter a second number: "))
-    number3 = int(input("Eneter a third number: "))
+    number1= int(input("Enter a number: "))
+    number2 = int(input("Enter a second number: "))
+    number3 = int(input("Enter a third number: "))
 
     if number1 > number2 and number1 > number3:
         print(f"{number1} is the largest")
