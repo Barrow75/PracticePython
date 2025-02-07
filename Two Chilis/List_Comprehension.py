@@ -1,5 +1,4 @@
-# Prompt: Take two lists, and write a program that returns a list that contains only the elements
-# that are common between the lists (without duplicates). Make sure your program works on two lists of different sizes.
+# Prompt: Ask the user for a string and print out whether this string is a palindrome or not
 
 
 palindrome = input("Enter a word to see if it is a palindrome: ")
